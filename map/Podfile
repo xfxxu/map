@@ -1,0 +1,11 @@
+platform :ios,'9.0'
+target 'map' do
+#高德地图相关SDK（无IDFA版）
+pod 'AMap2DMap'
+pod 'AMapSearch'
+pod 'AMapLocation'
+#第三方库
+pod 'MBProgressHUD'
+pod 'Reachability'
+pod 'MJRefresh'
+end
